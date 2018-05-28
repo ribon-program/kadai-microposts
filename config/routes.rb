@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root to: 'microposts#index'
+  root to: 'toppages#index'
   
 end

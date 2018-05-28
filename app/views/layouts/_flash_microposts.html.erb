@@ -1,3 +1,3 @@
 <% flash.each do |micropost_type, micropost| %>
-  <div><%= micropost %></div>
+  <div class="alert alert-<%= micropost_type %>"><%= micropost %></div>
 <% end %>  
